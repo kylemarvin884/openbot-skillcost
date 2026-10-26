@@ -1,0 +1,32 @@
+{
+  "name": "skillcost",
+  "version": "0.1.0",
+  "description": "Estimate how much context your SKILL.md files and MCP configs consume. Zero-dependency CLI.",
+  "type": "module",
+  "bin": {
+    "skillcost": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs scan .",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "context",
+    "mcp",
+    "skills",
+    "cli",
+    "tokens"
+  ],
+  "license": "MIT",
+  "author": "Xiao-KL"
+}
